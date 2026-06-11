@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="./assets/feju-logo.png" alt="Feju Brechó Logo" width="220" />
+</div>
+
+<br />
+
+<div align="center">
   <a href="https://www.instagram.com/brecho.feju/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%40brecho.feju-E1306C?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Feju" />
   </a>
@@ -17,20 +23,6 @@
 
 ---
 
-## 🖼️ Preview do Site
-
-<div align="center">
-
-| Hero | Catálogo |
-|------|----------|
-| ![Hero do site Feju Brechó mostrando peças vintage com fundo claro e tipografia grande](https://i.imgur.com/placeholder1.png) | ![Catálogo de peças do brechó com cards de roupas disponíveis](https://i.imgur.com/placeholder2.png) |
-
-> 🌗 O site possui **modo claro e escuro** — alterne pelo botão no canto superior direito.
-
-</div>
-
----
-
 ## 🛍️ Sobre o Projeto
 
 **Feju Brechó** é um e-commerce de moda sustentável, criado em parceria entre mim ([@Midstacksec](https://github.com/Midstacksec)) e minha sobrinha **Julia**. Oferecemos garimpos boho, retrô e místicos escolhidos um a um, com medidas reais, atendimento personalizado pelo Instagram e envio para qualquer canto do Brasil. 💜
@@ -45,7 +37,7 @@ O site é desenvolvido com **Next.js** e **TypeScript**, com design responsivo, 
 - 🛒 **Sacola de compras** — adicione peças e gerencie seus favoritos
 - 📸 **Catálogo visual** — galeria de peças com fotos e descrições detalhadas
 - 📏 **Medidas reais** — cada peça vem com tamanho e medidas informadas
-- 💬 **Perguntar** — botão para contato direto via WhatsApp/Instagram
+- 💬 **Perguntar** — botão para contato direto via Instagram
 - 📦 **Cálculo de frete** — consulte o valor do envio para seu CEP
 - 🔗 **Integração Instagram** — link direto para o perfil da loja
 
@@ -59,15 +51,15 @@ O site é desenvolvido com **Next.js** e **TypeScript**, com design responsivo, 
 | **Envio** | Informações sobre prazos e valores de entrega |
 | **Ritual** | Sobre o processo de curadoria e seleção |
 | **Conta** | Área da cliente com histórico e favoritas |
-| **Instagram** | Link direto para o perfil [@brecho.feju](https://www.instagram.com/brecho.feju/) |
+| **Instagram** | Link direto para [@brecho.feju](https://www.instagram.com/brecho.feju/) |
 
 ---
 
 ## 🏷️ Políticas do Brechó
 
-- ♻️ **Trocas e devoluções** — peças únicas, conferimos medidas, fotos e estado antes do envio. Problemas devem ser comunicados em até 7 dias após o recebimento.
+- ♻️ **Trocas e devoluções** — conferimos medidas, fotos e estado antes do envio. Problemas devem ser comunicados em até 7 dias após o recebimento.
 - 🔒 **Peças únicas** — cada achado tem apenas uma unidade. Quando a compra é confirmada, a peça fica reservada para a cliente.
-- 🛡️ **Privacidade** — nome, CPF, e-mail, telefone e endereço são usados apenas para compra, envio e atendimento. Não vendemos dados de clientes.
+- 🛡️ **Privacidade** — dados usados apenas para compra, envio e atendimento. Não vendemos dados de clientes.
 - 📬 **Envio** — enviamos para todo o Brasil. Prazo e valor dependem do CEP. Código de rastreio enviado após a postagem.
 
 ---
@@ -89,7 +81,9 @@ O site é desenvolvido com **Next.js** e **TypeScript**, com design responsivo, 
 ```
 feju-brecho/
 ├── app/              # Páginas e rotas Next.js (App Router)
-├── assets/           # Imagens, ícones e recursos estáticos
+├── assets/
+│   ├── feju-logo.png # Logo da marca
+│   └── screenshots/  # Screenshots do site (para o README)
 ├── public/           # Arquivos públicos servidos diretamente
 ├── .gitignore        # Arquivos ignorados pelo Git
 ├── next.config.mjs   # Configuração do Next.js
@@ -159,6 +153,7 @@ Este projeto é de uso pessoal/comercial dos criadores. Todos os direitos reserv
 ---
 
 <div align="center">
+  <img src="./assets/feju-logo.png" alt="Feju Brechó" width="80" />
   <p>
     <strong>🌙 feju — peças únicas com alma vintage e presença de ritual.</strong><br />
     <em>Feito com 💜 por Fernanda & Julia</em>
